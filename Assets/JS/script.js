@@ -13,6 +13,8 @@ let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     navbar.classList.remove('active');
+    menuIcon.classList.remove('bx-x');
+    menuIcon.classList.add('bx-menu');
     sections.forEach(sec => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
