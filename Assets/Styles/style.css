@@ -68,6 +68,7 @@ header {
 
 
 
+
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
@@ -98,6 +99,4 @@ header {
         margin: 3rem 0;
         text-align: center;
     }
-
-
 }
