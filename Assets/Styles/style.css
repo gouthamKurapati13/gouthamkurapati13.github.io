@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #1a1d20;
-    --sec-bg-color: #121721;
+    --bg-color: rgba(18, 23, 33, 0.87);
+    --sec-bg-color: rgba(18, 23, 33, 1);
     --text-color: #fff;
     --main-color: #fff352; 
     /* --main-color: rgb(214, 34, 34);   */
@@ -55,13 +55,21 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+section:nth-child(odd) {
+    background-color: var(--bg-color);
+}
+
+section:nth-child(even) {
+    background-color: var(--sec-bg-color);
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 2em 9%;
-    background-color: var(--bg-color);
+    background-color: var(--sec-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
