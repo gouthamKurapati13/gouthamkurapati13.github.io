@@ -1,2 +1,2 @@
-# gouthamkurapati13.github.io
+# Goutham Kurapati
 My Personal Portfolio Website
