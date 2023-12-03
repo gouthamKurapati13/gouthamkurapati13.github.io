@@ -168,7 +168,7 @@ header {
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        opacity: 70%;
+        opacity: 95%;
         display: none;
         height: 0;
     }
@@ -192,11 +192,11 @@ header {
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .home-content p {
