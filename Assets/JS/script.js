@@ -1,8 +1,4 @@
 /* --- Toggle Menu Bar --- */
-let clicked = () => {
-    console.log("clicked");
-}
-
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
