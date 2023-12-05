@@ -1,3 +1,7 @@
+/* --- Add year ---*/
+let yearText = document.querySelector('#year');
+yearText.textContent = new Date().getFullYear();
+
 /* --- Toggle Menu Bar --- */
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');

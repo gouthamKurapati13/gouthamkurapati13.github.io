@@ -259,6 +259,15 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+
+.footer {
+    background-color: var(--sec-bg-color);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
