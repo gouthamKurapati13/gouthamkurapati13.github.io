@@ -228,7 +228,7 @@ span {
     font-size: 1.7rem;
     margin: 1rem 0 3rem;
     text-align: justify;
-    height: 30%;
+    min-height: 30%;
 }
 
 .skills-container .skills-box:hover {
