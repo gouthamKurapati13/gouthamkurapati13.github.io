@@ -346,6 +346,58 @@ span {
 }
 
 
+.contact h2 {
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact form .input-area,  .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--sec-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+    transition: .5s ease;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form .btn {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.contact form .input-area:focus, .contact form textarea {
+    box-shadow: 0 0 1.5rem var(--sec-bg-color);
+    transform: scale('2.3');
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+#message {
+    color: green;
+    font-size: 1.5rem;
+    display: none;
+}
 
 .footer {
     background-color: var(--sec-bg-color);
@@ -426,6 +478,10 @@ span {
 
     .portfolio-container .portfolio-layer p {
         font-size: 1rem;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
     }
 
 }

@@ -43,3 +43,17 @@ const typed = new Typed('.multiple-roles', {
     backDelay: 500,
     loop: true
 });
+
+
+/* --- Contact Form --- */
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwGXdViIerw0KmwqK5jlR7qgAeobSLv3ODxSceoPgkrgNnaeG6CesDeJIVKUZVMDvnEPQ/exec';
+const form = document.forms['contact-form'];
+let mssg = document.querySelector('#message');
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => mssg.style.display = 'block')
+        .then(() => document.querySelector('#contact').scrollIntoView())
+        .catch(error => alert("Your message is not sent"))
+})
