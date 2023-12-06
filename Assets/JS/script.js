@@ -52,8 +52,8 @@ let mssg = document.querySelector('#message');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
+    document.querySelector('#contact').scrollIntoView();
     fetch(scriptURL, {method: 'POST', body: new FormData(form)})
         .then(response => mssg.style.display = 'block')
-        .then(() => document.querySelector('#contact').scrollIntoView())
         .catch(error => alert("Your message is not sent"))
 })
