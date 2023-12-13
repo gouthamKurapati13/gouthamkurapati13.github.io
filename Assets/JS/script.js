@@ -57,3 +57,17 @@ form.addEventListener('submit', e => {
         .then(response => mssg.style.display = 'block')
         .catch(error => alert("Your message is not sent"))
 })
+
+
+/*--- Scroll Reaveal Efeects ---*/
+ScrollReveal({ 
+    reset: true,
+    distance: "80px",
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-box, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .home-content .social-media', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .home-content .btn', { origin: 'right' });
