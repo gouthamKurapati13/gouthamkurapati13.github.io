@@ -68,5 +68,5 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .skills-box, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .skills-box, .portfolio-box, .contact form', { origin: 'bottom', delay: 5 });
 ScrollReveal().reveal('.home-content h1, .home-content .social-media', { origin: 'left' });
